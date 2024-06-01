@@ -1,0 +1,27 @@
+body {
+  overflow: hidden;
+}
+
+.child-one {
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: end;
+}
+
+.child-two {
+  background-color: aqua;
+  width: 25%;
+  height: auto;
+  padding: 2%;
+  transition: transform 0.3s ease-in;
+  transform: translateX(350%);
+}
+
+.slide-left {
+  transform: translateX(245%);
+}
+
+.box {
+  display: flex;
+  justify-content: end;
+}
